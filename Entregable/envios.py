@@ -58,7 +58,7 @@ CONFIG = {
 # Patrón Estrategia: descuentos
 # --------------------------------------------------------------------------
 class EstrategiaDescuento(ABC):
-    """Interfaz común de todas las estrategias de descuento."""
+    """Interfaz común para las estrategias de descuento (Patrón Estrategia)."""
 
     @abstractmethod
     def aplicar(self, monto: Decimal) -> Decimal:
