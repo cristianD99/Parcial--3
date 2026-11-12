@@ -121,6 +121,7 @@ def _validar_peso(peso) -> Decimal:
 
 
 def _validar_zona(zona) -> str:
+    """Valida que la zona sea urbana, rural o nacional (DEF-05)."""
     if zona not in RECARGOS_POR_ZONA:
         raise ValueError(f"zona invalida: {zona!r}")
     return zona
