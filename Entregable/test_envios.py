@@ -1,4 +1,4 @@
-# test_envios.py
+# test_envios.py - Suite automatizada de pruebas de caja negra
 import pytest
 from envios import calc, CONFIG
 
