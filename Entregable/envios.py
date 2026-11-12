@@ -133,6 +133,7 @@ def _validar_cliente(tipo_cliente) -> str:
 
 
 def _validar_dia(dia) -> int:
+    """Valida el rango de días entre 1 y 7 (DEF-04)."""
     if isinstance(dia, bool) or not isinstance(dia, int) or not DIA_MINIMO <= dia <= DIA_MAXIMO:
         raise ValueError(f"dia invalido: debe ser entero entre {DIA_MINIMO} y {DIA_MAXIMO}")
     return dia
