@@ -36,7 +36,7 @@ Dado que las reglas de negocio varían según el código estudiantil, a continua
 
 | A | B | C | D | E | F | PMAX | L1 | L2 | RR | RN | V | S | CAMBIO | 
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | 
-| 1 | 0 | 1 | 0 | 4 | \- | \- | \- | \- | \- | \- | \- | \- | \- | 
+| 4 | 1 | 0 | 1 | 0 | 4 | 50 | 3 | 10 | 10% | 45% | 15% | \$2000 | 2 | 
 
 ## Hoja de Ruta
 
