@@ -1,11 +1,11 @@
 # envios.py
 CONFIG = {
-    "L1": None,               # <- pon tus valores
-    "L2": None,
-    "RECARGO_RURAL": None,    # como fracción, ej. 0.15
-    "RECARGO_NACIONAL": None,
-    "DESC_VIP": None,
-    "RECARGO_FINDE": None,    # en pesos
+    "L1": 3,                  # <- pon tus valores
+    "L2": 10,
+    "RECARGO_RURAL": 0.10,    # como fracción, ej. 0.15
+    "RECARGO_NACIONAL": 0.45,
+    "DESC_VIP": 0.15,
+    "RECARGO_FINDE": 2000,    # en pesos
 }
 def calc(p, z, c, d, cup=None, flag=False):
     if p <= 0 or p > 50:
