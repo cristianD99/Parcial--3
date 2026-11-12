@@ -164,7 +164,7 @@ def _obtener_estrategia_cupon(cupon) -> EstrategiaDescuento:
 
 
 def _redondear_comercial(monto: Decimal) -> int:
-    """Redondea al múltiplo de 100 más cercano; la mitad sube (DEF-03)."""
+    """Redondeo comercial al múltiplo de 100 más cercano; la mitad sube (DEF-03)."""
     cientos = (monto / MULTIPLO_REDONDEO).quantize(Decimal("1"), rounding=ROUND_HALF_UP)
     return int(cientos * MULTIPLO_REDONDEO)
 
