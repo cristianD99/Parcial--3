@@ -142,7 +142,7 @@ def _validar_dia(dia) -> int:
 # Métodos de apoyo
 # --------------------------------------------------------------------------
 def _calcular_tarifa_base(peso: Decimal) -> Decimal:
-    """Tarifa por tramos de peso (Regla D=1: tramo 1 es peso < L1) (DEF-01)."""
+    """Calcula la tarifa por tramos de peso (Regla D=1: tramo 1 es peso < L1) (DEF-01)."""
     if peso < LIMITE_TRAMO_1:
         return TARIFA_TRAMO_1
     if peso <= LIMITE_TRAMO_2:
