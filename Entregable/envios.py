@@ -155,7 +155,7 @@ def _aplicar_recargo_zona(monto: Decimal, zona: str) -> Decimal:
 
 
 def _es_fin_de_semana(dia: int) -> bool:
-    """Sábado (6) y domingo (7) (DEF-02)."""
+    """Incluye sábado (6) y domingo (7) en fin de semana (DEF-02)."""
     return dia >= DIA_SABADO
 
 
